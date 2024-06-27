@@ -28,5 +28,11 @@ const appMenuItems = <MenuItem>[
     link: '/cards', 
     icon: Icons.credit_card,
     ),
+  MenuItem(
+    title: 'Animaciones', 
+    subTitle: 'Animaciones', 
+    link: '/animated', 
+    icon: Icons.animation_outlined,
+    ),
 
 ];
