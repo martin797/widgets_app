@@ -41,10 +41,10 @@ const appMenuItems = <MenuItem>[
     icon: Icons.info_outline,
     ),
   MenuItem(
-    title: 'Animaciones', 
-    subTitle: 'Animaciones', 
+    title: 'Animated Container', 
+    subTitle: 'Stated widget animado', 
     link: '/animated', 
-    icon: Icons.animation_outlined,
+    icon: Icons.check_box_outline_blank_rounded,
     ),
 
 ];
