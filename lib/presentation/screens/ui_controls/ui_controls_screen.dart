@@ -37,7 +37,7 @@ class _UiControlsViewState extends State<_UiControlsView> {
         SwitchListTile(
             title: const Text('Developer Mode'),
             subtitle: const Text('Controles adicionales'),
-            value: true,
+            value: isDeveloper,
             onChanged: (value) => setState(() {
                   isDeveloper = !isDeveloper;
                 })),
